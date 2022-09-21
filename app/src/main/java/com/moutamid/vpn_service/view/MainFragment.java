@@ -65,7 +65,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Chan
         binding.privacyPolicy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://app.getterms.io/view/SPfNE/privacy/en-us"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/document/d/e/2PACX-1vSW9KizjNNAm93s_zJdaCL-nErIeK7eYWYsWG0f7mI3UwDqDyv4rOhXCWgCl97A_PUBT3j1HUrf7IQ0/pub"));
                 startActivity(browserIntent);
             }
         });
